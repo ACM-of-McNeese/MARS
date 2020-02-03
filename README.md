@@ -23,6 +23,8 @@ https://web.cs.ucdavis.edu/~okreylos/ResDev/SARndbox/LinkSoftwareInstallation.ht
 
 MARS is currently using Linux Mint 19.3 (MATE desktop). Like the original, we are using a first-generation Kinect unit as the IR camera.
 
+(Unverified) MARS is running on an HP Z4/Z6 Workstation, link [here](https://www8.hp.com/au/en/workstations/z440.html#!&pd1=1).
+
 ## Special documentation
 
 * All USB devices must be plugged into the BACK of the computer tower, not in the front.
@@ -33,3 +35,7 @@ MARS is currently using Linux Mint 19.3 (MATE desktop). Like the original, we ar
   * Find the section called "MouseAdapter" and insert the following line: 
     * `grabPointer false`
   * Then save the file. 
+* If getting an `"Interface 0 is already claimed"`,`"Error while setting alternate setting"`, or a LIBUSB error after hanging, see the following links:
+  * https://arsandbox.ucdavis.edu/forums/topic/usb-or-kinect-error-interface-0-is-already-claimed/#post-102835
+  * https://arsandbox.ucdavis.edu/forums/topic/error-when-running-kinectutil/
+  * https://stackoverflow.com/questions/6365314/libusb-interface-already-claimed
